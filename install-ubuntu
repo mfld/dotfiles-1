@@ -19,7 +19,7 @@ php8.3-soap \
 php8.3-yaml \
 php8.3-xdebug \
 build-essential \
-curl git xclip \
+curl git xclip wget \
 cargo \
 clangd \
 shellcheck \
@@ -29,7 +29,7 @@ protobuf-compiler
 
 sudo snap install --classic pyright
 
-/install-go
+./install-go
 
 
 # mkdir -p "$HOME/.lua-language-server"
